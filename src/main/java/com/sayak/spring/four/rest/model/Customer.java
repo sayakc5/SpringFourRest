@@ -2,8 +2,12 @@ package com.sayak.spring.four.rest.model;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+@Entity
 public class Customer {
 
+	@Id
 	private Long id;
 	private String firstName;
 	private String lastName;
